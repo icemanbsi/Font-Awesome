@@ -1,5 +1,8 @@
 # [Font Awesome v4.6.3](http://fontawesome.io)
-### The iconic font and CSS framework
+
+This library contains a dart package useful to develop web-applications using `fontawesome` icons
+
+## The iconic font and CSS framework
 
 Font Awesome is a full suite of 634 pictographic icons for easy scalable vector graphics on websites,
 created and maintained by [Dave Gandy](https://twitter.com/davegandy).
@@ -8,7 +11,25 @@ Stay up to date with the latest release and announcements on Twitter:
 
 Get started at http://fontawesome.io!
 
+## Usage
+
+add `font_awesome` dependency to your `pubspec.yaml`
+
+```
+dependencies:
+...
+  font_awesome: any
+...
+```
+
+Then run `pub get` and finally import it y your `index.html` doing:
+
+```
+<link rel="stylesheet" href="packages/font_awesome/css/font-awesome.min.css">
+```
+
 ## License
+
 - The Font Awesome font is licensed under the SIL OFL 1.1:
   - http://scripts.sil.org/OFL
 - Font Awesome CSS, LESS, and Sass files are licensed under the MIT License:
@@ -20,6 +41,7 @@ Get started at http://fontawesome.io!
 - Full details: http://fontawesome.io/license/
 
 ## Changelog
+
 - [v4.6.3 GitHub pull request](https://github.com/FortAwesome/Font-Awesome/pull/9189)
 - [v4.6.2 GitHub pull request](https://github.com/FortAwesome/Font-Awesome/pull/9117)
 - [v4.6.1 GitHub pull request](https://github.com/FortAwesome/Font-Awesome/pull/8962)
@@ -65,40 +87,3 @@ For more information on SemVer, please visit http://semver.org.
 - Email: dave@fontawesome.io
 - Twitter: http://twitter.com/davegandy
 - GitHub: https://github.com/davegandy
-
-## Component
-To include as a [component](https://github.com/componentjs/component), just run
-
-    $ component install FortAwesome/Font-Awesome
-
-Or add
-
-    "FortAwesome/Font-Awesome": "*"
-
-to the `dependencies` in your `component.json`.
-
-## Hacking on Font Awesome
-
-**Before you can build the project**, you must first have the following installed:
-
-- [Ruby](https://www.ruby-lang.org/en/)
-- Ruby Development Headers
-  - **Ubuntu:** `sudo apt-get install ruby-dev` *(Only if you're __NOT__ using `rbenv` or `rvm`)*
-  - **Windows:** [DevKit](http://rubyinstaller.org/)
-- [Bundler](http://bundler.io/) (Run `gem install bundler` to install).
-- [Node Package Manager (AKA NPM)](https://docs.npmjs.com/getting-started/installing-node)
-- [Less](http://lesscss.org/) (Run `npm install -g less` to install).
-- [Less Plugin: Clean CSS](https://github.com/less/less-plugin-clean-css) (Run `npm install -g less-plugin-clean-css` to install).
-
-From the root of the repository, install the tools used to develop.
-
-    $ bundle install
-    $ npm install
-
-Build the project and documentation:
-
-    $ bundle exec jekyll build
-
-Or serve it on a local server on http://localhost:7998/Font-Awesome/:
-
-    $ bundle exec jekyll -w serve

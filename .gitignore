@@ -31,3 +31,8 @@ stunnel.log
 
 .ruby-version
 .bundle
+/Font-Awesome.iml
+/.idea/
+/.packages
+/packages/
+/pubspec.lock

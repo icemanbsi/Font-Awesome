@@ -1,0 +1,8 @@
+name: font_awesome
+description: The iconic font and CSS framework
+version: 4.6.3
+homepage: http://fontawesome.io/
+authors:
+  - Luis Vargas <luisvargastijerino@gmail.com>
+  - Dave Gandy <dave@fontawesome.io>
+license": (OFL-1.1 AND MIT)
