@@ -1,10 +1,10 @@
-# [Font Awesome v4.6.3](http://fontawesome.io)
+# [Font Awesome v4.7.0](http://fontawesome.io)
 
 This library contains a dart package useful to develop web-applications using `fontawesome` icons
 
 ## The iconic font and CSS framework
 
-Font Awesome is a full suite of 634 pictographic icons for easy scalable vector graphics on websites,
+Font Awesome is a full suite of 675 pictographic icons for easy scalable vector graphics on websites,
 created and maintained by [Dave Gandy](https://twitter.com/davegandy).
 Stay up to date with the latest release and announcements on Twitter:
 [@fontawesome](http://twitter.com/fontawesome).
@@ -42,6 +42,8 @@ Then run `pub get` and finally import it y your `index.html` doing:
 
 ## Changelog
 
+- [v4.7.0 GitHub pull request](https://github.com/FortAwesome/Font-Awesome/pull/10012)
+- [v4.6.3 GitHub pull request](https://github.com/FortAwesome/Font-Awesome/pull/9189)
 - [v4.6.3 GitHub pull request](https://github.com/FortAwesome/Font-Awesome/pull/9189)
 - [v4.6.2 GitHub pull request](https://github.com/FortAwesome/Font-Awesome/pull/9117)
 - [v4.6.1 GitHub pull request](https://github.com/FortAwesome/Font-Awesome/pull/8962)
