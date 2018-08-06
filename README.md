@@ -22,7 +22,7 @@ dependencies:
 ...
 ```
 
-Then run `pub get` and finally import it y your `index.html` doing:
+Then run `pub get` and finally import it to your `index.html` doing:
 
 ```
 <link rel="stylesheet" href="packages/font_awesome/css/font-awesome.min.css">
@@ -89,3 +89,7 @@ For more information on SemVer, please visit http://semver.org.
 - Email: dave@fontawesome.io
 - Twitter: http://twitter.com/davegandy
 - GitHub: https://github.com/davegandy
+
+### Dart Package Maintainer
+
+- Luis vargas: luisvt@github.com
