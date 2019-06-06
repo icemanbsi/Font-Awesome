@@ -1,4 +1,4 @@
-# [Font Awesome v4.7.0](http://fontawesome.io)
+# [Font Awesome v5.9.0](http://fontawesome.io)
 
 This library contains a dart package useful to develop web-applications using `fontawesome` icons
 
@@ -9,13 +9,13 @@ created and maintained by [Dave Gandy](https://twitter.com/davegandy).
 Stay up to date with the latest release and announcements on Twitter:
 [@fontawesome](http://twitter.com/fontawesome).
 
-Get started at http://fontawesome.io!
+Get started at <https://fontawesome.com/>!
 
 ## Usage
 
 add `font_awesome` dependency to your `pubspec.yaml`
 
-```
+```(yaml)
 dependencies:
 ...
   font_awesome: any
@@ -24,21 +24,21 @@ dependencies:
 
 Then run `pub get` and finally import it to your `index.html` doing:
 
-```
+```(html)
 <link rel="stylesheet" href="packages/font_awesome/css/font-awesome.min.css">
 ```
 
 ## License
 
 - The Font Awesome font is licensed under the SIL OFL 1.1:
-  - http://scripts.sil.org/OFL
+  - <http://scripts.sil.org/OFL>
 - Font Awesome CSS, LESS, and Sass files are licensed under the MIT License:
-  - https://opensource.org/licenses/mit-license.html
+  - <https://opensource.org/licenses/mit-license.html>
 - The Font Awesome documentation is licensed under the CC BY 3.0 License:
-  - http://creativecommons.org/licenses/by/3.0/
+  - <http://creativecommons.org/licenses/by/3.0/>
 - Attribution is no longer required as of Font Awesome 3.0, but much appreciated:
   - `Font Awesome by Dave Gandy - http://fontawesome.io`
-- Full details: http://fontawesome.io/license/
+- Full details: <http://fontawesome.io/license/>
 
 ## Changelog
 
@@ -79,16 +79,17 @@ with the following format:
 
 And constructed with the following guidelines:
 
-* Breaking backward compatibility bumps the major (and resets the minor and patch)
-* New additions, including new icons, without breaking backward compatibility bumps the minor (and resets the patch)
-* Bug fixes, changes to brand logos, and misc changes bumps the patch
+- Breaking backward compatibility bumps the major (and resets the minor and patch)
+- New additions, including new icons, without breaking backward compatibility bumps the minor (and resets the patch)
+- Bug fixes, changes to brand logos, and misc changes bumps the patch
 
-For more information on SemVer, please visit http://semver.org.
+For more information on SemVer, please visit <http://semver.org>.
 
 ## Author
+
 - Email: dave@fontawesome.io
-- Twitter: http://twitter.com/davegandy
-- GitHub: https://github.com/davegandy
+- Twitter: <http://twitter.com/davegandy>
+- GitHub: <https://github.com/davegandy>
 
 ### Dart Package Maintainer
 

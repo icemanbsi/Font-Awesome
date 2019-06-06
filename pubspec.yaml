@@ -1,6 +1,6 @@
 name: font_awesome
 description: The iconic font and CSS framework
-version: 4.7.0+1
+version: 5.9.0
 homepage: https://github.com/luisvt/Font-Awesome
 environment:
   sdk: ">=2.0.0 <3.0.0"
