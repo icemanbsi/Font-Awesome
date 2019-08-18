@@ -36,3 +36,6 @@ stunnel.log
 /.packages
 /packages/
 /pubspec.lock
+*.iml
+
+_README.xml

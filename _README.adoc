@@ -1,0 +1,125 @@
+= http://fontawesome.io[Font Awesome]
+
+This library contains a dart package useful to develop web-applications using `fontawesome` icons
+
+== The iconic font and CSS framework
+
+Font Awesome is a full suite of 675 pictographic icons for easy scalable vector graphics on websites,
+created and maintained by [Dave Gandy](https://twitter.com/davegandy).
+Stay up to date with the latest release and announcements on Twitter:
+[@fontawesome](http://twitter.com/fontawesome).
+
+Get started at <https://fontawesome.com/>!
+
+== Usage in Web and CSS
+
+1 - Create a new project with next structure:
+
+    [project_root]
+      ├─ analisys_options.yaml
+      ├─ pubspec.yaml
+      ├─ web
+      │  ├─ index.html
+      │  ├─ style.css
+      │  └─ ... other files and folders ...
+
+2 - In the `pubspec.yaml` file add the `font_awesome` dependency as below:
+
+```yaml
+include::examples/web_css_sample/pubspec.yaml[tag=!exclude]
+```
+
+3 - In `styles.css` file import the css file from `font_awesome` library:
+
+```css
+include::examples/web_css_sample/web/styles.css[]
+```
+
+4 - In `index.html` add the needed component and classes:
+
+```html
+include::examples/web_css_sample/web/index.html[]
+```
+
+5 - Run next command to start development server:
+
+```sh
+webdev serve --auto refresh
+```
+
+6 - Once you are ready to build and deploy your project run next command:
+
+```sh
+webdev build
+```
+
+== Usage in Web and Sass
+
+1 - Create a new project with next structure:
+
+    [project_root]
+      ├─ analisys_options.yaml
+      ├─ pubspec.yaml
+      ├─ web
+      │  ├─ index.html
+      │  ├─ style.scss
+      │  └─ ... other files and folders ...
+
+2 - In the `pubspec.yaml` file add the `font_awesome` and `sass_builder` dependencies as below:
+
+```yaml
+include::examples/web_sass_sample/pubspec.yaml[tags=!exclude]
+```
+
+NOTE: During development `sass_builder` compiles the `scss` files whenever they change and generates a bundled `css` file that only exist in memory. During final build it generates a `css` file in the `build` folder.
+
+3 - In `styles.css` file import the css file from `font_awesome` library:
+
+```css
+include::examples/web_sass_sample/web/styles.scss[]
+```
+
+4 - In `index.html` add the needed component and classes:
+
+```html
+include::examples/web_sass_sample/web/index.html[]
+```
+
+5 - Run next command to start development server:
+
+```sh
+webdev serve --auto refresh
+```
+
+6 - Once you are ready to build and deploy your project run next command:
+
+```sh
+webdev build
+```
+
+## License
+
+- The Font Awesome font is licensed under the SIL OFL 1.1:
+- <http://scripts.sil.org/OFL>
+- Font Awesome CSS, LESS, and Sass files are licensed under the MIT License:
+- <https://opensource.org/licenses/mit-license.html>
+- The Font Awesome documentation is licensed under the CC BY 3.0 License:
+- <http://creativecommons.org/licenses/by/3.0/>
+- Attribution is no longer required as of Font Awesome 3.0, but much appreciated:
+- `Font Awesome by Dave Gandy - http://fontawesome.io`
+- Full details: <http://fontawesome.io/license/>
+
+== Contributing
+
+Please read through our https://github.com/FortAwesome/Font-Awesome/blob/master/CONTRIBUTING.md[contributing guidelines].
+Included are directions for opening issues, coding standards, and notes on development.
+
+== Author
+
+- Email: dave@fontawesome.io
+- Twitter: <http://twitter.com/davegandy>
+- GitHub: <https://github.com/davegandy>
+
+=== Dart Package Maintainer
+
+- Luis vargas: luisvt@github.com
